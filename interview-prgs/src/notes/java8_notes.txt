@@ -1,0 +1,9 @@
+java 8 interfaces functionality:
+--------------------------------------------------------------------------------------------------------------
+Function. Takes one argument and returns a result
+Consumer. Takes one argument and returns no result
+Supplier. Takes a not argument and returns a result
+Predicate. Takes one argument and returns a boolean
+BiFunction. Takes two arguments and returns a result
+BinaryOperator. It’s like a BiFunction, except it takes two arguments and returns a result, and they are all the same type
+UnaryOperator. It’s like a Function, but it takes a single argument and returns a result of the same type
