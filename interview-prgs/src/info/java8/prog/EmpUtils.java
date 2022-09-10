@@ -7,7 +7,7 @@ import java.util.Map;
 
 public class EmpUtils {
 	
-	public List<Employee> getListEmp(){
+	public static List<Employee> getListEmp(){
 		List<Employee> list = new ArrayList<Employee>();
 		list.add(new Employee(1,"subbu", "bpp"));
 		list.add(new Employee(2,"raj", "hyd"));
@@ -16,7 +16,7 @@ public class EmpUtils {
 		return list;
 	}
 	
-	public Map<String, Employee> getMapEmp(){
+	public static Map<String, Employee> getMapEmp(){
 		Map<String, Employee> map = new HashMap<String, Employee>();
 		map.put("subbu", new Employee(1,"subbu", "bpp"));
 		map.put("raj", new Employee(2,"raj", "hyd"));
